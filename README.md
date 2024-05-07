@@ -1,1 +1,1 @@
-print lyrics as the song goes
+prints lyrics as the song goes
