@@ -46,12 +46,7 @@ def print_lyrics():
         ("I said, 'The city is mine'", 0.08)
     ]
 
-    delays = [0.1, 0.1, 0.1, 0.1, 0.1, 0.3, 0.1, 0.8, 0.1, 0.1, 0.1,
-              0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 
-              0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 
-              0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-
-    for i, (line, char_delay) in enumerate(lines):
+    for line, char_delay in lines:
         if line == "longpause":
             time.sleep(char_delay)
         else:
@@ -60,6 +55,7 @@ def print_lyrics():
                 sys.stdout.flush()
                 sleep(char_delay)
             print('')
+
 
 
 print_lyrics()
