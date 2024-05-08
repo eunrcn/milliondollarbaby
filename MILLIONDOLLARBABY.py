@@ -34,15 +34,17 @@ def print_lyrics():
         ("Tried to pick some energy up, it don't matter", 0.05),
         ("longpause", 0.5),
         ("I know you never moved on if you tried", 0.06),
-        ("longpause", 0.6),
-        ("I don't believe it, baby, I know you lied", 0.07),
+        ("longpause", 0.9),
+        ("I don't believe it, baby, I know you lied", 0.06),
         ("longpause", 0.6),
         ("All night long,", 0.1),
         ("longpause", 1.2),
-        ("what you mean, 'I changed'?", 0.06),
-        ("Haven't stayed the same", 0.08),
+        ("what you mean, 'I changed'?", 0.05),
+        ("longpause", 0.5),
+        ("Haven't stayed the same", 0.05),
+        ("longpause", 0.5),
         ("I've been losin' my mind", 0.08),
-        ("longpause", 1.4),
+        ("longpause", 1.5),
         ("I said, 'The city is mine'", 0.08)
     ]
 
